@@ -1,0 +1,7 @@
+streamlit
+boto3
+pandas
+scikit-learn
+streamlit-option-menu
+tensorflow
+keras
