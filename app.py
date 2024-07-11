@@ -27,17 +27,15 @@ if selected == "Home":
     st.subheader("Latar Belakang")
     st.markdown("""
         <p style='margin-bottom:50px; text-align:justify;'>
-        Indonesia merupakan negara yang memiliki angka kebutuhan beras yang tinggi. Hal ini mengharuskan petani untuk memproduksi beras dalam angka yang besar da>
-        Salah satu faktor penyebab menurunnya produksi padi adalah penyakit pada tanaman padi. Masing-masing jenis penyakit membutuhkan penanganan yang berbeda, >
-        Untuk mempermudah petani mengetahui jenis penyakit tersebut sehingga dibuatlah suatu program yang dapat mengidentifikasi penyakit tanaman padi. Daun padi>
+        Indonesia merupakan negara yang memiliki angka kebutuhan beras yang tinggi. Hal ini mengharuskan petani untuk memproduksi beras dalam angka yang besar dan dengan kualitas yang baik.
+        Salah satu faktor penyebab menurunnya produksi padi adalah penyakit pada tanaman padi. Masing-masing jenis penyakit membutuhkan penanganan yang berbeda, namun tidak semua petani mengetahui jenis penyakit tersebut sehingga memungkinkan terjadinya kesalahan dalam penanganan.
+        Untuk mempermudah petani mengetahui jenis penyakit tersebut sehingga dibuatlah suatu program yang dapat mengidentifikasi penyakit tanaman padi. Daun padi merupakan bagian tubuh padi yang paling mudah untuk mengidentifikasi gejala penyakit yang timbul pada padi. Hal ini disebabkan daun memiliki penampang yang luas dibandingkan bagian tubuh tanaman padi yang lain, sehingga perubahan warna dan bentuk dapat terlihat lebih jelas.
         Oleh karena itu, daun dapat digunakan sebagai langkah awal deteksi penyakit pada padi.
-        </p>
-        """, unsafe_allow_html=True)
 
     st.subheader("Tujuan")
     st.markdown("""
         <p style='margin-bottom:50px; text-align:justify;'>
-        Bertujuan memberi pembelajaran kepada petani terkait pengklasifikasian penyakit pada tanaman padi dan mengurangi resiko gagal panen yang diakibatkan dari>
+        Bertujuan memberi pembelajaran kepada petani terkait pengklasifikasian penyakit pada tanaman padi dan mengurangi resiko gagal panen yang diakibatkan dari penyakit pada tanaman padi.
         </p>
         """, unsafe_allow_html=True)
 
@@ -46,7 +44,7 @@ if selected == "Home":
     image_sample2 = Image.open('sample/hispa4.jpg')
     image_sample3 = Image.open('sample/brownspot6.jpg')
     image_sample4 = Image.open('sample/leafblast9.jpg')
-	sample1, sample2, sample3, sample4 = st.columns(4)
+    sample1, sample2, sample3, sample4 = st.columns(4)
     with sample1:
         st.image(image_sample1, caption="Contoh healthy")
     with sample2:
